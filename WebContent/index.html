@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>SQL QEUERY SELECTOR</title>
+</head>
+<body>
+    <div id="header">
+        <h1>SQL Query Selector</h1>
+    </div>
+    <Label id="DB">
+        Enter your Database URL: <input type="text" name="info" id="info"><br><br>
+        <button id="submit" onclick="connection()">Submit</button><br>
+    </Label>
+    <div id="connection"></div><br><br>
+    <h1>Enter your SQL Query</h1>
+    <label for="query" id="query">
+        <textarea name="sql-query" id="sql-query" cols="30" rows="10"></textarea><br><br>
+        <input type="button" value="Run" onclick="queryRun()">
+    </label>
+</body>
+</html>
